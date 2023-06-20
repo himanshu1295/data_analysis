@@ -257,14 +257,21 @@ Output for profit in a table
 Lucky Shrub needs a summary of their client's details, including their addresses, order details, and the products they purchased. Help them out by creating a virtual table called DataSummary that joins together the four tables that contain this data. These four tables are as follows:
 
 1.) Clients,
+
 2.) Addresses,
+
 3.) Orders,
+
 4.) and Products.
 
 The virtual table must display the following data:
+
 1.) The full name and contact number for each client from the Clients table.
+
 2.) The county that each client lives in from the Addresses table.
+
 3.) The name of the product they purchased from the Products table.
+
 4.) The ProductID, cost and date of each order from the Orders table.
 
 The virtual table should show relevant data for year 2022 only. Order the data by the cost of the highest order. 
